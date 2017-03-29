@@ -11,17 +11,6 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
-var objOne = {
-    name: 'Robert',
-    location: 'Barberton'
-};
-
-var objTwo = {
-    age: 25,
-    ...objOne
-};
-
-console.log(objTwo);
 
 // Render in the DOM
 ReactDOM.render(
